@@ -1,1 +1,0 @@
-alert("Hello, saya sedang belajar program JavaScript eksternal!");
