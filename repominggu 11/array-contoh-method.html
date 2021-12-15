@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contoh Array Method</title>
+    </head>
+    <body>
+        <script>
+            // Method Includes
+            var sayur = ["Kangkung", "Semur", "Sop", "Lodeh"];
+            // apakah ada sayur lodeh?
+            var adaLodeh = sayur.includes("Lodeh");
+            console.log(adaLodeh); // -> true
+            // apakah sayur asem ada?
+            var adaAsem = sayur.includes("Asem");
+            console.log(adaAsem); // -> false
+
+            // Method filter
+            const angka = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+            // ambil data yang hanya habis dibagi dua 
+            const filteredArray = angka.filter(item => item % 2 === 0);
+            console.log(filteredArray) // -> [2, 4, 6, 8]
+
+            //Method Short
+            var alfabet = ['a','f','z','e','r','g'];
+            console.log(alfabet.sort()); //->  ["a", "e", "f", "g", "r", "z"]
+        </script>
+    </body>
+</html>
