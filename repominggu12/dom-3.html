@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM API Javascript</title>
+</head>
+<body>
+    <p class="paragraf">DOM merupakan singkatan dari Document Object Model, artinya dokumen (HTML) yang dimodelkan dalam sebuah objek.</p>
+    <p class="paragraf">Objek dari dokumen ini menyediakan sekumpulan fungsi dan atribut/data yang bisa  dimanfaatkan dalam membuat program Javascript. Inilah yang disebut API (Application Programming Interface).</p>
+    <p class="paragraf">DOM tidak hanya untuk dokumen HTML saja. DOM juga bisa digunakan untuk dokumen XML dan SVG, dan DOM juga tidak hanya ada di Javascript saja, DOM juga ada pada bahasa pemrograman lain.</p>
+    <script>
+    var paragraf = document.getElementsByClassName("paragraf");
+    setInterval(function () {
+    paragraf[0].style.color = "red";
+    paragraf[1].style.color = "gold";
+    paragraf[2].style.color = "pink";
+    setTimeout(function () {
+    paragraf[0].style.color = "black";
+    paragraf[1].style.color = "black";
+    paragraf[2].style.color = "black";
+    }, 500)
+    }, 1000);
+    </script>
+</body>
+</html>    
