@@ -1,0 +1,34 @@
+[
+    {
+    "nim":"13602",
+    "nama":"Vito Zharfan Syarif Prayogo",
+    "alamat":"Purwodadi",
+    "jurusan":"Teknik Informatika",
+    "MK":[
+    {
+    "mk_kode":"101",
+    "nama_mk":"DASAR PEMROGRAMAN"
+    },
+    {
+    "mk_kode":"102",
+    "nama_mk":"PEMROGRAMAN BERBASIS WECB"
+    },
+    {
+    "mk_kode":"103",
+    "nama_mk":"MATEMATIKA DIKSRIT"
+    },
+    {
+    "mk_kode":"104",
+    "nama_mk":"KALKULUS 1"
+    },
+    {
+    "mk_kode":"105",
+    "nama_mk":"DASAR-DASAR KOMPUTASI"
+    } 
+  ] 
+}
+]
+
+
+
+
