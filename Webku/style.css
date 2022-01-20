@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    color: white;
+}
+body{
+    background-color: cornflowerblue;
+}
+
+header{
+    height: 70px;
+}
+
+header h1{
+    display: inline-block;
+    padding: 15px 24px;
+    text-transform: uppercase;
+}
+
+header h1 a{
+    transition: .3s;
+}
+
+header h1 a:hover{
+    color: #1436f5
+}
+
+header ul{
+    float: right;
+}
+
+header ul li{
+    padding: 24px;
+    display: inline-block;
+}
+
+header ul li a{
+    transition: .3s;
+}
+
+header ul li a:hover{
+    color: #1436f5
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.banner {
+    background-image: url('vivo.png');
+    padding: 250px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.banner h2, .banner p {
+    color: yellow;
+}
+
+.banner h2 {
+    margin-bottom: 12px;
+}
+.banner p {
+    font-size: 18px;
+}
+
+.banner-left {
+    padding-left: 24px;
+}
+#TentangKami p {
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 25px;
+    margin-bottom: 15px;
+    padding: 34px;
+    color: #333;
+}
+
+#Produk {
+    background-color: cornflowerblue;
+}
+
+.col-4 {
+    width: 40%;
+    box-sizing: border-box;
+    padding: 110px;
+    float: left;
+}
+
+.col-4 img {
+    width: 100%;
+}
+
+.col-4 a:hover img {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: #ff1414;
+    padding: 50px;
+    text-align: center;
+}
+
+footer small {
+    color: #ffffff;
+}
+
+.pembelian {
+    width: 25%;
+    box-sizing: border-box;
+    padding: 5px;
+    float: left;
+}
+
+.pembelian img {
+    width: 100%;
+}
+
+.pembelian:hover img {
+    transform: scale(1.2);
+}
+.buku-tamu {
+    background-color: cornflowerblue;
+    margin: 10px;
+    border: solid cornflowerblue 2px;
+}
